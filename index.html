@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+
+</head>
+<body>
+    <div class="wrapper">
+        <p class="game-info"></p>
+
+        <div class="tic-tac-toe">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+        </div>
+
+        <button class="btn">
+            New Game
+        </button>
+    </div>    
+<script src="index.js"></script> 
+</body>
+</html>
